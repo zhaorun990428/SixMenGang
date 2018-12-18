@@ -1,7 +1,15 @@
 <html>
 <meta charset="utf-8">
 <head>
-  <script src="">
+  <script type="text/javascript">
+function xingxi() {
+    var a1char="这是一位江苏南京的女用户";
+    alert(a1char);
+}
+function xingxi1() {
+    var a1char="这是一位江苏南京的男用户";
+    alert(a1char);
+}
 
   </script>
   <title>首页</title>
@@ -320,9 +328,10 @@
     <div id="dh">
     <ul>
         <li><a href="#">主页</a></li>
-        <li><a href="#">新闻</a></li>
-        <li><a href="#">联系</a></li>
-        <li><a href="#">关于</a></li>
+        <li><a href="#l1">新闻</a></li>
+        <li><a href="#l1">联系</a></li>
+        <li><a href="#l1">关于</a></li>
+        <li><a href="#">约会信息发布</a></li>
     </ul>
     </div>
     <!--导航栏结束-->
@@ -344,12 +353,12 @@
   <span class="txt">大家正在关注</span>
   <span class="line"></span>
   <div class="picture">
-    <a href="../picture/b2.jpg"><img src="../picture/b2.jpg" class="c1" width="250px" height="180px"/></a>
-    <a href="../picture/g2.jpg"><img src="../picture/g2.jpg" class="c2" width="250px" height="180px"/></a>
-    <a href="../picture/g5.jpg"><img src="../picture/g5.jpg" class="c3" width="250px" height="180px"/></a>
-    <a href="../picture/g1.png"><img src="../picture/g1.png" class="c4" width="250px" height="180px"/></a>
-    <a href="../picture/c3.jpg"><img src="../picture/c3.jpg" class="c5" width="250px" height="180px"/></a>
-    <a href="../picture/a9.jpg"><img src="../picture/a9.jpg" class="c6" width="250px" height="180px"/></a>
+    <a href="../picture/b2.jpg" onclick="xingxi()"><img src="../picture/b2.jpg" class="c1" width="250px" height="180px"/></a>
+    <a href="../picture/g2.jpg" onclick="xingxi()"><img src="../picture/g2.jpg" class="c2" width="250px" height="180px"/></a>
+    <a href="../picture/g5.jpg" onclick="xingxi()"><img src="../picture/g5.jpg" class="c3" width="250px" height="180px"/></a>
+    <a href="../picture/g1.png" onclick="xingxi1()"><img src="../picture/g1.png" class="c4" width="250px" height="180px"/></a>
+    <a href="../picture/c3.jpg" onclick="xingxi()"><img src="../picture/c3.jpg" class="c5" width="250px" height="180px"/></a>
+    <a href="../picture/a9.jpg" onclick="xingxi()"><img src="../picture/a9.jpg" class="c6" width="250px" height="180px"/></a>
   </div>
   <span class="line1"></span>
   <span class="txt1">为您推荐</span>
@@ -429,7 +438,7 @@
     <div id="num522">
     <dl>
   <dt>联系与合作</dt>
-  <dd><a href="">联系我们</a></dd>
+  <dd><a href="" name="l1">联系我们</a></dd>
   <dd><a href="">用户反馈</a></dd>
   <dd><a href="">约会吧标准文档</a></dd>
       </dl>
